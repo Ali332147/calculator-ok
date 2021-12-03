@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* calculator code */
+
+.formstyle
+{
+width: 100%;
+max-width: 700px;
+text-align: center;
+height: 620px;
+text-shadow: 3px;
+margin:20px auto;
+background-color: #f1f1f1;
+border: 3px solid #999;
+border-radius: 5px;
+padding: 20px;
+}
+h2{
+  color: black;
+  padding: 5px;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+.calc{
+  width: 420px;
+  padding: 5px ;
+  font-size: 1.6rem;
+  border-radius: 6px;
+  border-color: red;
+  text-align: center;
+}
+.inp{
+  width: 75px;
+  height: 70px;
+  font-size: 1.6rem;
+  box-shadow: #f1f1f1;
+  text-shadow: #333;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.inp:hover{
+  background-color: beige;
+  color: red;
+}
+.btn{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  border-radius: 5px;
+  color:white;
+  background-color: blue;
+  transition: .5s;
+}
+.btn:hover{
+  background-color:black;
+  color:yellow;
+  
+}
+/* @media (min-width: 320px) and (max-width: 480px) {
+
+  .formstyle
+{
+justify-content: center;
+text-align: center;
+}
+h2{
+  text-align: center;
+  justify-content:center;
+}
+calc{
+  justify-content: center;
+  text-align: center;
+}
+.inp{
+  text-align: center;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+  .formstyle
+{
+justify-content: center;
+text-align: center;
+max-width: 100vh;
+}
+h2{
+  text-align: center;
+  justify-content:center;
+}
+#calc{
+  justify-content: center;
+  text-align: center;
+}
+.inp{
+  text-align: center;
+}
+
+} */
